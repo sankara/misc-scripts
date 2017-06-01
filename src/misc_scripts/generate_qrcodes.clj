@@ -2,7 +2,7 @@
   (:require [clj-http.client :as http]))
 
 (defn shorten [url]
-  (let [response (http/get "https://api-ssl.bitly.com/v3/shorten/"
+  (let [response (http/get "https://api-ssl.bitly.com/v3/shorten"
                            {:query-params {
                                            :login ""
                                            :apiKey ""

@@ -9,7 +9,8 @@
                  [lein-light-nrepl "0.0.17"]
                  [revise "0.0.6"]
                  [clj-http "3.4.1"]
-                 [clj.qrgen "0.4.0"]]
+                 [clj.qrgen "0.4.0"]
+                 [net.mikera/core.matrix "0.60.3"]]
   :repl-options {
                  :host "localhost"
                  :port 9090})

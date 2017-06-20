@@ -1,5 +1,6 @@
 (ns misc-script.mars-rover
-  (:require [clojure.core.matrix :as matrix]))
+  (:use [misc-script.mars-rover.rover]
+        [misc-script.mars-rover.commander]))
 
 
 

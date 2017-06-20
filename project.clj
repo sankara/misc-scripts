@@ -10,7 +10,9 @@
                  [revise "0.0.6"]
                  [clj-http "3.4.1"]
                  [clj.qrgen "0.4.0"]
-                 [net.mikera/core.matrix "0.60.3"]]
+                 [net.mikera/core.matrix "0.60.3"]
+                 [uncomplicate/clojurecuda "0.2.0"]
+                 [uncomplicate/neanderthal "0.11.1"]]
   :repl-options {
                  :host "localhost"
                  :port 9090})
